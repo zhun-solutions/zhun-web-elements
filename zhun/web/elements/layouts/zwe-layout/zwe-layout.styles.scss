@@ -1,0 +1,37 @@
+/**
+fr: fractional unit of space
+auto: automatic spacing
+min-max: min and max values for grid layouts
+auto-fit: altomatic childs in the grid
+auto-fill
+
+***/    
+.zwe-layout{
+    border-top: 1px solid #cecece;
+    // width:1000px;
+    // height: 800px;
+    // *{ border: 1px solid #cecece;
+    // } 
+    transition: all 0.3s ease-in;
+    display:grid;
+    // place-items: center;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    // color:red;
+    header{
+        grid-column: 1/4;
+    }
+     .left-bar{
+         grid-column: 1/2;
+         border-right: 1px solid #cecece;
+     }
+
+     .main-content{
+        grid-column: 2/3;
+    }
+     .right-bar{
+        grid-column: 3/4;
+    }
+    footer{
+        grid-column: 1/4;
+    }
+}

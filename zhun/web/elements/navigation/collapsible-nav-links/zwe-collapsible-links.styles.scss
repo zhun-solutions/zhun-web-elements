@@ -1,0 +1,37 @@
+/**
+fr: fractional unit of space
+auto: automatic spacing
+min-max: min and max values for grid layouts
+auto-fit: altomatic childs in the grid
+auto-fill
+
+***/    
+.nav-links{
+    padding-inline: 2vh 2vh;  
+    transition: all 0.3s ease-in;
+
+    justify-content: center;
+     display: flex;
+     flex-direction:column;
+     details {
+        padding-top: 3vh;
+        border-bottom: .1rem  solid #e1e1e1;;
+
+         summary {
+            list-style: none;
+            list-style-position: outside;          
+         }
+     }
+     li { 
+         a{
+        text-decoration: none; 
+            color:black;
+    }   a:hover{
+             color:red;
+    }  
+    list-style-position: outside;
+        list-style: none;
+        display: list-item;
+ 
+     }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "zhun-web-elements",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zhun-web-elements.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhun-solutions/zhun-web-elements.git"
+  },
+  "keywords": [
+    "vanilla",
+    "js",
+    "web",
+    "components"
+  ],
+  "author": "zhun solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhun-solutions/zhun-web-elements/issues"
+  },
+  "homepage": "https://github.com/zhun-solutions/zhun-web-elements#readme"
+}

@@ -1,0 +1,27 @@
+ 
+.nav-links{
+     transition: all 0.3s ease-in;
+    
+ padding-inline: 2vh 2vh;
+    
+    justify-content: center;
+     display: flex;
+     flex-direction:column;
+     
+     li {  
+          border-bottom:1px solid #cccccc;
+          padding-top:2vh; 
+           padding-bottom:2vh;
+      a{
+        text-decoration: none; 
+            color:black;
+    }   a:hover{
+             color:red;
+    }  
+    list-style-position: outside;
+        list-style: none;
+        display: list-item;
+
+  
+     }
+}

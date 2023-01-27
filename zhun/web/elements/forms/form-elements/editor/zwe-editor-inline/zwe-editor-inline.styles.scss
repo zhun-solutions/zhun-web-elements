@@ -1,0 +1,31 @@
+/**
+fr: fractional unit of space
+auto: automatic spacing
+min-max: min and max values for grid layouts
+auto-fit: altomatic childs in the grid
+auto-fill
+
+***/  
+details{ 
+    width:auto;
+    summary{
+        display:block;
+        padding-bottom: .5rem;
+    background-color: #f5f5f5;
+    padding-top: 1.2rem;
+    color: #1f1f1f;
+    }
+    margin-left: .5rem;
+    border-bottom:0.02rem solid #1f1f1f;
+    background-color: #f5f5f5;
+    
+}
+button{
+    margin:.25rem;
+    border: none; 
+    background:black;
+    padding:1rem 1.3rem; 
+display: inline-block;
+     font-weight:600;
+     color:white; 
+}
